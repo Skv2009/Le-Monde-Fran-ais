@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Le Monde Français</title>
+  <link rel="shortcut icon" href="data/plg.ico" type="image/x-icon">
+  <link rel="stylesheet" href="stylevar.css" />
+</head>
+<body class="page">
+
+  <header class="header" id="top">
+    <nav class="nav">
+      <div class="nav__brand">
+        <span class="nav__logo"><img src="data/plg.png" alt=""></span>
+        <span class="nav__title">Le Monde Français</span>
+      </div>
+
+      <ul class="nav__list">
+        <li class="nav__item"><a class="nav__link" href="index.html">Вернуться обратно</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="section section--pdf" id="section-pdf">
+
+  <div class="section__content">
+
+    <h2 class="section__title">Варианты ЕГЭ</h2>
+    <p class="section__desc">
+      Выбери вариант и решай прямо на сайте.
+    </p>
+
+    <!-- КНОПКИ -->
+    <div class="pdf-controls">
+      <button onclick="loadPDF('data/var1.pdf')">Вариант 1</button>
+      <button onclick="loadPDF('pdf/variant2.pdf')">Вариант 2</button>
+      <button onclick="loadPDF('pdf/variant3.pdf')">Вариант 3</button>
+    </div>
+
+    <!-- ПРОСМОТР -->
+    <div class="pdf-viewer">
+      <iframe id="pdf-frame" src="data/var1.pdf"></iframe>
+    </div>
+
+  </div>
+
+</section>
+
+<!-- JS (вставь перед </body>) -->
+<script>
+  function loadPDF(file) {
+    document.getElementById("pdf-frame").src = file;
+  }
+</script>

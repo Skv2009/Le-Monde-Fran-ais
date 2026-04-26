@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Le Monde Français</title>
+  <link rel="shortcut icon" href="data/plg.ico" type="image/x-icon">
+  <link rel="stylesheet" href="vars.css" />
+</head>
+<body class="page">
+
+  <header class="header" id="top">
+    <nav class="nav">
+      <div class="nav__brand">
+        <span class="nav__logo"><img src="data/plg.png" alt=""></span>
+        <span class="nav__title">Le Monde Français</span>
+      </div>
+
+      <ul class="nav__list">
+        <li class="nav__item"><a class="nav__link" href="index.html">Вернуться</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="section section--exam" id="listening">
+
+  <div class="section__content">
+
+    <h2 class="center">Раздел 1. Аудирование</h2>
+
+    <!-- 🎧 АУДИО -->
+    <div class="audio-player">
+      <p>Прослушайте аудиозапись:</p>
+      <audio controls>
+        <source src="audio.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+
+    <!-- ЗАДАНИЕ 1 -->
+    <div class="exam-block">
+
+      <div class="exam-header">
+        <div class="exam-task-number">1</div>
+        <div class="exam-instruction">
+          Установите соответствие между высказываниями A–F и утверждениями 1–7.
+        </div>
+      </div>
+
+      <ol class="list">
+        <li>On proposerait un large choix de nourriture.</li>
+        <li>Il faudrait changer les horaires des cours.</li>
+        <li>Les élèves joueraient pendant les cours.</li>
+        <li>Il y aurait des équipements sportifs pour tous.</li>
+        <li>Il y aurait des examens de fin d’année à l’école.</li>
+        <li>On utiliserait des appareils électroniques.</li>
+        <li>On sélectionnerait les disciplines à étudier.</li>
+      </ol>
+
+      <div class="answer-table">
+        <span>Ответ:</span>
+        <table>
+          <tr>
+            <td>A</td><td>B</td><td>C</td><td>D</td><td>E</td><td>F</td>
+          </tr>
+          <tr>
+            <td><input data-a="4"></td>
+            <td><input data-a="2"></td>
+            <td><input data-a="6"></td>
+            <td><input data-a="1"></td>
+            <td><input data-a="7"></td>
+            <td><input data-a="3"></td>
+          </tr>
+        </table>
+      </div>
+
+    </div>
+
+    <!-- ЗАДАНИЕ 2 -->
+    <div class="exam-block">
+
+      <div class="exam-header">
+        <div class="exam-task-number">2</div>
+        <div class="exam-instruction">
+          Определите, какие утверждения верны (1), ложны (2) или нет информации (3).
+        </div>
+      </div>
+
+      <div class="statements">
+        <div>A. Nico a pris une salade de légumes.</div>
+        <div>B. Nico a mal à l’estomac depuis hier.</div>
+        <div>C. Le stage est facultatif pour Nico.</div>
+        <div>D. On peut recevoir une offre sur Internet.</div>
+        <div>E. La lettre de motivation doit être brève.</div>
+        <div>F. Il faut envoyer la lettre par la poste.</div>
+        <div>G. Nico montrera sa lettre à Lucy.</div>
+      </div>
+
+      <div class="answer-table">
+        <span>Ответ:</span>
+        <table>
+          <tr>
+            <td>A</td><td>B</td><td>C</td><td>D</td><td>E</td><td>F</td><td>G</td>
+          </tr>
+          <tr>
+            <td><input data-a="1"></td>
+            <td><input data-a="2"></td>
+            <td><input data-a="3"></td>
+            <td><input data-a="1"></td>
+            <td><input data-a="1"></td>
+            <td><input data-a="2"></td>
+            <td><input data-a="3"></td>
+          </tr>
+        </table>
+      </div>
+
+    </div>
+
+    <button class="check-btn" onclick="checkListening()">Проверить</button>
+    <p id="resultListening"></p>
+
+  </div>
+
+</section>
+
+<section class="section section--exam" id="task3to9">
+
+  <div class="section__content">
+
+    <div class="exam-header">
+      <div class="exam-task-number">3–9</div>
+      <div class="exam-instruction">
+        В заданиях 3–9 запишите цифру 1, 2 или 3, соответствующую выбранному варианту ответа.
+      </div>
+    </div>
+
+    <div class="questions">
+
+      <!-- 3 -->
+      <div class="task">
+        <b>3.</b> Les parents de Maxime ont ...
+        <label><input type="radio" name="q3" value="1"> vendu leur maison à Dijon</label>
+        <label><input type="radio" name="q3" value="2"> payé ses frais de scolarité</label>
+        <label><input type="radio" name="q3" value="3"> travaillé dans la médecine</label>
+      </div>
+
+      <!-- 4 -->
+      <div class="task">
+        <b>4.</b> Les parents ont insisté pour que Maxime ...
+        <label><input type="radio" name="q4" value="1"> passe une année à l’étranger</label>
+        <label><input type="radio" name="q4" value="2"> fasse un bac scientifique</label>
+        <label><input type="radio" name="q4" value="3"> fasse un bac littéraire</label>
+      </div>
+
+      <!-- 5 -->
+      <div class="task">
+        <b>5.</b> Les parents se sont opposés à l’université à cause de ...
+        <label><input type="radio" name="q5" value="1"> contenu des cours</label>
+        <label><input type="radio" name="q5" value="2"> qualification des professeurs</label>
+        <label><input type="radio" name="q5" value="3"> nombre d’heures</label>
+      </div>
+
+      <!-- 6 -->
+      <div class="task">
+        <b>6.</b> Maxime a compris son erreur grâce à ...
+        <label><input type="radio" name="q6" value="1"> un travail en communication</label>
+        <label><input type="radio" name="q6" value="2"> des cours de marketing</label>
+        <label><input type="radio" name="q6" value="3"> un professeur</label>
+      </div>
+
+      <!-- 7 -->
+      <div class="task">
+        <b>7.</b> Quel est son projet ?
+        <label><input type="radio" name="q7" value="1"> refaire le bac</label>
+        <label><input type="radio" name="q7" value="2"> diplôme international</label>
+        <label><input type="radio" name="q7" value="3"> marketing</label>
+      </div>
+
+      <!-- 8 -->
+      <div class="task">
+        <b>8.</b> Pression de réussite car ...
+        <label><input type="radio" name="q8" value="1"> père veut ingénieur</label>
+        <label><input type="radio" name="q8" value="2"> père au chômage</label>
+        <label><input type="radio" name="q8" value="3"> mère manque de formation</label>
+      </div>
+
+      <!-- 9 -->
+      <div class="task">
+        <b>9.</b> Aujourd’hui les parents ...
+        <label><input type="radio" name="q9" value="1"> approuvent</label>
+        <label><input type="radio" name="q9" value="2"> donnent conseils</label>
+        <label><input type="radio" name="q9" value="3"> choisissent</label>
+      </div>
+
+    </div>
+
+    <button class="check-btn" onclick="checkTask3to9()">Проверить</button>
+    <p id="result3to9"></p>
+
+  </div>
+
+</section>
+
+<section class="section section--exam">
+
+  <div class="section__content">
+
+ <div class="exam-header">
+    <h2 class="section__title center">Раздел 2. Чтение</h2>
+  <div class="exam-task-number">Задание 10</div>
+  
+</div>
+
+    <div class="exam-block">
+
+      <div class="exam-instruction">
+        Установите соответствие между текстами A–G и заголовками 1–8.
+        Используйте каждую цифру только один раз. Один заголовок лишний.
+      </div>
+
+      <!-- ЗАГОЛОВКИ -->
+      <div class="headings">
+        <div>1. Manger moins de steaks</div>
+        <div>2. Effacer ses messages</div>
+        <div>3. Se déplacer autrement</div>
+        <div>4. Cuisiner des plats chez soi</div>
+        <div>5. Les produits régionaux</div>
+        <div>6. La viande coûte très cher</div>
+        <div>7. Nettoyer la nature ensemble</div>
+        <div>8. Prendre un animal chez soi</div>
+      </div>
+
+      <!-- ТЕКСТЫ -->
+      <div class="texts">
+
+        <div class="text-block">
+          <b>A.</b> Quant aux produits locaux, leur achat permet de limiter les transports. 
+          Consommer local, c’est aussi revenir à des fruits et légumes de saison. 
+          Car un produit de saison est cueilli à maturité, tandis que ceux importés 
+          sont récoltés trop tôt.
+        </div>
+
+        <div class="text-block">
+          <b>B.</b> La production de viande a un fort impact sur l’environnement. 
+          L’élevage est responsable de nombreuses émissions de gaz à effet de serre. 
+          Réduire la consommation de viande est bénéfique pour la planète.
+        </div>
+
+        <div class="text-block">
+          <b>C.</b> Préparer des plats à la maison permet de mieux contrôler la qualité 
+          des ingrédients et d’éviter les produits industriels. 
+          C’est aussi meilleur pour l’environnement.
+        </div>
+
+        <div class="text-block">
+          <b>D.</b> Même si tu habites loin, tu peux utiliser des transports alternatifs : 
+          vélo, marche ou transports en commun. Cela réduit la pollution.
+        </div>
+
+        <div class="text-block">
+          <b>E.</b> Un e-mail inutile consomme de l’énergie car il est stocké dans des serveurs. 
+          Supprimer les messages inutiles aide à réduire la consommation énergétique.
+        </div>
+
+        <div class="text-block">
+          <b>F.</b> Participer à des actions de nettoyage dans la nature est utile 
+          et sensibilise à l’écologie. C’est aussi une activité collective agréable.
+        </div>
+
+        <div class="text-block">
+          <b>G.</b> Les animaux domestiques doivent être contrôlés, car ils peuvent 
+          affecter la biodiversité. Il est important de bien s’en occuper.
+        </div>
+
+      </div>
+
+      <!-- ОТВЕТЫ -->
+      <div class="answers-grid">
+        <div>A <input data-answer="5"></div>
+        <div>B <input data-answer="1"></div>
+        <div>C <input data-answer="4"></div>
+        <div>D <input data-answer="3"></div>
+        <div>E <input data-answer="2"></div>
+        <div>F <input data-answer="7"></div>
+        <div>G <input data-answer="8"></div>
+      </div>
+
+      <button onclick="checkReading()" class="check-btn">Проверить</button>
+
+      <p id="result-reading" class="result"></p>
+
+    </div>
+
+  </div>
+
+</section>
+
+<section class="section section--exam">
+
+  <div class="section__content">
+
+    <!-- HEADER -->
+    <div class="exam-header">
+      <div class="exam-task-number">11</div>
+      <div class="exam-instruction">
+        Прочитайте текст и заполните пропуски A–F частями предложений,
+        обозначенными цифрами 1–7. Одна из частей в списке 1–7 лишняя.
+        Занесите цифры, обозначающие соответствующие части предложений, в таблицу.
+      </div>
+    </div>
+
+    <!-- ТЕКСТ -->
+    <div class="reading-text">
+
+      <h3>Dans leur collège, sur une île, ils sont 10 élèves!</h3>
+
+      <p>
+        Ce mardi, au lever du soleil, le Melvan quitte la petite île d’Hoëdic en direction de sa voisine Houat.
+        À bord: Zachary, Ehouarn, Martin et Lylwenn. Du mardi au vendredi, à 7h25, ces quatre élèves de 6e et 5e
+        habitant Hoëdic sont obligés de prendre le bateau
+        A <input data-answer="7"> à Houat. La raison: il n’y en a pas à Hoëdic,
+        petit caillou de 208 hectares.
+      </p>
+
+      <p>
+        Quelques minutes avant le départ, on les voit arriver à pied ou à vélo, avec les premiers rayons du soleil.
+        Ils n’ont pas intérêt à manquer le bateau,
+        B <input data-answer="2"> par jour!
+        Installée sur un siège du Melvan, Lylwenn dit au revoir à son père, le dernier pêcheur de l’île.
+        Puis, pour passer
+        C <input data-answer="6"> de trajet, elle joue au Uno avec ses trois camarades.
+      </p>
+
+      <p>
+        À bord, Zachary, arrivé en septembre à Hoëdic, aime admirer les paysages et le lever du soleil.
+        «C’est incroyable de vivre ici, on est isolé au milieu de l’océan,
+        D <input data-answer="3">!», s’exclame-t-il.
+      </p>
+
+      <p>
+        Tous les mardis matin, les élèves du collège s’occupent pendant près de deux heures de leur potager.
+        Il a été créé en septembre dans
+        E <input data-answer="4"> de récréation.
+        «Nous avons déjà planté des radis, des navets, des fèves, différentes espèces de fleurs et d’herbes aromatiques»,
+        détaille Lylwenn en grattant la terre.
+      </p>
+
+      <p>
+        Dans ce collège verdoyant, situé à quelques centaines de mètres de la mer,
+        F <input data-answer="5"> pour aider les élèves à apprendre.
+        Dès que cela est possible, le professeur de SVT les emmène, par exemple,
+        explorer les plages et leurs alentours.
+      </p>
+
+    </div>
+
+    <!-- ВАРИАНТЫ -->
+    <div class="variants">
+      <div>1. car il n’y a que deux traversées</div>
+      <div>2. qui n’arrivent jamais en retard</div>
+      <div>3. mais on se sent tellement libre</div>
+      <div>4. le jardin arboré servant de cour</div>
+      <div>5. la nature est régulièrement utilisée</div>
+      <div>6. le temps pendant les 25 minutes</div>
+      <div>7. pour se rendre dans leur collège</div>
+    </div>
+
+    <!-- ТАБЛИЦА -->
+    <div class="answer-table">
+      <span>Ответ:</span>
+      <table>
+        <tr>
+          <td>A</td>
+          <td>B</td>
+          <td>C</td>
+          <td>D</td>
+          <td>E</td>
+          <td>F</td>
+        </tr>
+        <tr>
+          <td><input data-answer="7"></td>
+          <td><input data-answer="2"></td>
+          <td><input data-answer="6"></td>
+          <td><input data-answer="3"></td>
+          <td><input data-answer="4"></td>
+          <td><input data-answer="5"></td>
+        </tr>
+      </table>
+    </div>
+
+    <button class="check-btn" onclick="checkTask11()">Проверить</button>
+    <p id="result11"></p>
+
+  </div>
+
+</section>
+
+<section class="section section--exam">
+
+  <div class="section__content">
+
+    <div class="exam-header">
+      <div class="exam-task-number">12–18</div>
+      <div class="exam-instruction">
+        Прочитайте текст и выполните задания 12–18.
+        В каждом задании запишите цифру 1, 2, 3 или 4.
+      </div>
+    </div>
+
+    <!-- ТЕКСТ -->
+    <div class="reading-text">
+
+       <h3 class="reading-title">
+  Pourquoi certains adolescents ne souhaitent pas être sur les réseaux sociaux?
+</h3>
+
+<p>
+  Les outils de communication que sont les réseaux sociaux sont très attrayants.
+  Ils sont pratiques pour communiquer, pour certains assez ludiques.
+  Le carnet d’adresse virtuel est simple d’utilisation, le partage d’informations est facilité.
+  Il existe également, bien sûr, un effet de groupe.
+  On socialise aujourd’hui aussi bien en ligne que par une rencontre physique.
+  La connexion est aussi, souvent, omniprésente même au sein de la famille
+  (nombre de parents fournissent en outre un smartphone à leur(s) enfant(s) dès le collège pour rester en contact avec eux).
+  Il peut également être plus sécurisant pour les ados de contacter leurs amis par un réseau social que de donner leur numéro de portable.
+  Mais les réseaux sociaux, en dépit de tous leurs atouts, ne sont pas dénués de points négatifs,
+  ce qui peut pousser certains adolescents à refuser de les utiliser.
+</p>
+
+<p>
+  Ne pas utiliser les réseaux est un moyen pour certains d’échapper au contrôle parental.
+  D’autres refusent d’être soumis à la pression induite par les réseaux sociaux:
+  être «aimé», se montrer sous son meilleur jour pour récolter des likes
+  (course aux likes qui peut pousser dans certains cas à des comportements extrêmes, dangereux,
+  juste pour être vu, reconnu), faire défiler les photos retouchées et idéalisées de stars
+  ou même de proches qui ne reflètent pas la réalité et mènent à se comparer à eux et à se dévaloriser.
+  Beaucoup n’ont pas envie de connaître chaque heure de chaque jour du quotidien de leurs amis
+  ou de leur famille (tout le monde n’a pas forcément envie de savoir ce qu’une personne a mangé au déjeuner
+  ou quelle prouesse hilarante a réalisé le chien du voisin).
+</p>
+
+<p>
+  Nombre d’adolescents qui choisissent de ne pas être présents sur les réseaux sociaux indiquent préférer utiliser leur temps à autre chose.
+  Lilian, 13 ans, qui n’est inscrit sur aucun réseau social, indique par exemple:
+  «Aucune raison ne me pousse à y aller. Je ne vois pas réellement d’intérêt à écouter, lire ou voir la vie des gens
+  puisque j’ai déjà la mienne et celle de mes amis.
+  La vie de chacun est différente, alors idéaliser la sienne en essayant de vivre celle des personnes connues
+  sur les réseaux sociaux par procuration (à travers photos, vidéos, audios...),
+  c’est un petit peu comme ne pas vivre sa vie réellement.
+  Au-delà de ça, je n’ai pas réellement de temps à consacrer aux réseaux sociaux:
+  je passe le temps à écouter et faire de la musique, lire, écrire ou me balader.»
+</p>
+
+<p>
+  Certains ressentent au début un manque, plus ou moins marqué.
+  La réaction de l’entourage est essentielle également.
+  Lilian, par exemple, estime:
+  «La plupart des personnes me comprennent car je leur explique toutes les raisons qui font que cela ne m’attire pas
+  mais que ce soit mes proches ou mes amis, la plupart me montrent malgré moi des vidéos, audios, photos issus des réseaux sociaux».
+  Il ajoute:
+  «Je ne considère pas cela comme une «absence» mais plutôt comme une manière de vivre».
+</p>
+
+    </div>
+
+    <!-- ВОПРОСЫ -->
+    <div class="questions">
+
+      <div class="task">
+        <b>12.</b> Aujourd’hui, beaucoup de parents ...
+        <div class="options">
+          <label><input type="radio" name="q12" value="1"> offrent un téléphone portable</label>
+          <label><input type="radio" name="q12" value="2"> font de la publicité</label>
+          <label><input type="radio" name="q12" value="3"> utilisent les réseaux pour travailler</label>
+          <label><input type="radio" name="q12" value="4"> jouent à des jeux</label>
+        </div>
+      </div>
+
+      <div class="task">
+        <b>13.</b> Certains adolescents abandonnent les réseaux pour ...
+        <div class="options">
+          <label><input type="radio" name="q13" value="1"> éviter les moqueries</label>
+          <label><input type="radio" name="q13" value="2"> éviter la compétition</label>
+          <label><input type="radio" name="q13" value="3"> éviter les problèmes</label>
+          <label><input type="radio" name="q13" value="4"> protéger leur adresse</label>
+        </div>
+      </div>
+
+      <div class="task">
+        <b>14.</b> Par ailleurs, d’autres adolescents ...
+        <div class="options">
+          <label><input type="radio" name="q14" value="1"> détestent se prendre en photo</label>
+          <label><input type="radio" name="q14" value="2"> passent toutes leurs nuits</label>
+          <label><input type="radio" name="q14" value="3"> sont jaloux de la vie des stars</label>
+          <label><input type="radio" name="q14" value="4"> détestent la vie des autres</label>
+        </div>
+      </div>
+
+      <div class="task">
+        <b>15.</b> Lillian est absent des réseaux sociaux car ...
+        <div class="options">
+          <label><input type="radio" name="q15" value="1"> ses parents lui interdisent</label>
+          <label><input type="radio" name="q15" value="2"> il a peur d’être insulté</label>
+          <label><input type="radio" name="q15" value="3"> les réseaux donnent une fausse image</label>
+          <label><input type="radio" name="q15" value="4"> ses amis utilisent peu les réseaux</label>
+        </div>
+      </div>
+
+      <div class="task">
+        <b>16.</b> Lillian constate que ses ...
+        <div class="options">
+          <label><input type="radio" name="q16" value="1"> proches l’obligent</label>
+          <label><input type="radio" name="q16" value="2"> proches lui montrent des contenus</label>
+          <label><input type="radio" name="q16" value="3"> parents utilisent beaucoup</label>
+          <label><input type="radio" name="q16" value="4"> amis se moquent</label>
+        </div>
+      </div>
+
+      <div class="task">
+        <b>17.</b> En étant absent des réseaux, Lillian ...
+        <div class="options">
+          <label><input type="radio" name="q17" value="1"> manque de vrais amis</label>
+          <label><input type="radio" name="q17" value="2"> est peu au courant</label>
+          <label><input type="radio" name="q17" value="3"> est impopulaire</label>
+          <label><input type="radio" name="q17" value="4"> parle peu avec ses parents</label>
+        </div>
+      </div>
+
+      <div class="task">
+        <b>18.</b> Lillian voudrait utiliser les réseaux pour ...
+        <div class="options">
+          <label><input type="radio" name="q18" value="1"> trouver de l’inspiration</label>
+          <label><input type="radio" name="q18" value="2"> suivre des cours</label>
+          <label><input type="radio" name="q18" value="3"> participer aux festivals</label>
+          <label><input type="radio" name="q18" value="4"> faire la publicité</label>
+        </div>
+      </div>
+
+    </div>
+
+    <button class="check-btn" onclick="checkTest()">Проверить</button>
+    <p id="result-test"></p>
+
+  </div>
+
+</section>
+
+<section class="section section--exam">
+
+  <div class="section__content">
+
+    <div class="exam-header">
+      <div class="exam-task-number">19–24</div>
+      <div class="exam-instruction">
+        Преобразуйте слова, напечатанные заглавными буквами, так, чтобы они грамматически соответствовали тексту.
+      </div>
+    </div>
+
+    <div class="reading-text">
+
+      <h3>Novossibirsk</h3>
+
+      <p>
+        Novossibirsk, capitale de la Sibérie orientale, est la troisième ville de Russie.
+        Peu touristique, elle se présente pourtant comme une cité
+        <input data-answer="culturelle">, abritant le plus grand opéra de Russie,
+        son symbole, de même que des musées exceptionnels:
+        du Soleil, de la Technologie ferroviaire, des cultures funéraires.
+        <span class="word">CULTUREL</span>
+      </p>
+
+      <p>
+        Novossibirsk s'étale de part et d'autre de l'Ob.
+        En descendant l'avenue Chelyuskintsev, vous atteignez la
+        <input data-answer="fabuleuse"> gare transsibérienne et son quartier.
+        <span class="word">FABULEUX</span>
+      </p>
+
+      <p>
+        Novossibirsk est équipée d'un métro: la ligne rouge et la ligne
+        <input data-answer="verte"> desservent 13 stations tous les jours.
+        <span class="word">VERT</span>
+      </p>
+
+      <h3>Au réveil, elle se retrouve face à... un gros félin</h3>
+
+      <p>
+        Kristine dormait lorsqu'elle
+        <input data-answer="sentait"> un animal sauter sur son lit.
+        <span class="word">SENTIR</span>
+      </p>
+
+      <p>
+        Elle a compris qu'il ne s'
+        <input data-answer="agissait"> pas d'un simple chat.
+        <span class="word">AGIR</span>
+      </p>
+
+      <p>
+        Le couple a prévenu des
+        <input data-answer="experts"> en animaux sauvages.
+        <span class="word">EXPERT</span>
+      </p>
+
+    </div>
+
+    <button class="check-btn" onclick="checkTask19()">Проверить</button>
+    <p id="result19"></p>
+
+  </div>
+
+</section>
+
+<section class="section section--exam">
+
+  <div class="section__content">
+
+    <div class="exam-header">
+      <div class="exam-task-number">25–29</div>
+      <div class="exam-instruction">
+        Образуйте от слов в скобках новые слова так, чтобы они грамматически и лексически соответствовали тексту.
+      </div>
+    </div>
+
+    <div class="reading-text">
+
+      <h3>Comment s’occuper de son animal de compagnie durant les vacances?</h3>
+
+      <p>
+        En fait, tout dépend du type d'animal. De manière générale, un chat,
+        qui est très attaché à son territoire, sera plus stressé de quitter sa maison qu'un chien:
+        proche de ses maîtres, il craint des
+        <input data-answer="séparations"> longues et préférera t'accompagner que de rester seul.
+        <span class="word">SÉPARER</span>
+      </p>
+
+      <p>
+        Ceci dit, chaque animal a son caractère. Certains chats ont besoin de compagnie
+        quand des chiens n'aiment pas le
+        <input data-answer="changement">...
+        <span class="word">CHANGER</span>
+      </p>
+
+      <p>
+        Ton animal stresse
+        <input data-answer="facilement"> ?
+        <span class="word">FACILE</span>
+      </p>
+
+      <p>
+        Tu peux lister par écrit tout ce qu'elle doit savoir au sujet de la
+        <input data-answer="nourriture"> à donner...
+        <span class="word">NOURRIR</span>
+      </p>
+
+      <p>
+        Pendant le trajet, place à l'intérieur une couverture
+        <input data-answer="confortable"> puis laisse-le au calme...
+        <span class="word">CONFORT</span>
+      </p>
+
+    </div>
+
+    <button class="check-btn" onclick="checkTask25()">Проверить</button>
+    <p id="result25"></p>
+
+  </div>
+
+</section>
+
+<section class="section section--exam" id="task3036">
+
+  <div class="section__content">
+
+    <div class="exam-header">
+      <div class="exam-task-number">30–36</div>
+      <div class="exam-instruction">
+        Прочитайте текст с пропусками 30–36 и выберите правильный вариант ответа.
+      </div>
+    </div>
+
+    <div class="reading-text">
+
+      <h3>Pourquoi la Joconde est-elle célèbre?</h3>
+
+      <p>
+        C’est le tableau le plus connu au monde! Peint au XVIe siècle par Léonard de Vinci,
+        ce chef-d'œuvre attire de très nombreux
+        <b>(30)</b>.
+      </p>
+
+      <p>
+        «La Joconde» a été réalisée par Léonard de Vinci,
+        un grand peintre italien de la Renaissance qui était aussi
+        <b>(31)</b>.
+      </p>
+
+      <p>
+        Grâce à la
+        <b>(32)</b> du sfumato,
+        elle semble presque vivante.
+      </p>
+
+      <p>
+        Certains pensent qu’il s’agit d’un homme
+        <b>(33)</b> en femme.
+      </p>
+
+      <p>
+        Les questions
+        <b>(34)</b>...
+      </p>
+
+      <p>
+        Chaque jour, 30 000 visiteurs
+        <b>(35)</b> devant le tableau.
+      </p>
+
+      <p>
+        Le tableau devient alors l’œuvre la plus
+        <b>(36)</b>.
+      </p>
+
+    </div>
+
+    <!-- ВОПРОСЫ -->
+    <div class="questions">
+
+      <div class="task">
+        <b>30.</b>
+        <label><input type="radio" name="q30" value="1"> carnets</label>
+        <label><input type="radio" name="q30" value="2"> contacts</label>
+        <label><input type="radio" name="q30" value="3"> curieux</label>
+        <label><input type="radio" name="q30" value="4"> cartons</label>
+      </div>
+
+      <div class="task">
+        <b>31.</b>
+        <label><input type="radio" name="q31" value="1"> sculpteur</label>
+        <label><input type="radio" name="q31" value="2"> tracteur</label>
+        <label><input type="radio" name="q31" value="3"> moteur</label>
+        <label><input type="radio" name="q31" value="4"> doubleur</label>
+      </div>
+
+      <div class="task">
+        <b>32.</b>
+        <label><input type="radio" name="q32" value="1"> panique</label>
+        <label><input type="radio" name="q32" value="2"> rubrique</label>
+        <label><input type="radio" name="q32" value="3"> physique</label>
+        <label><input type="radio" name="q32" value="4"> technique</label>
+      </div>
+
+      <div class="task">
+        <b>33.</b>
+        <label><input type="radio" name="q33" value="1"> déguisé</label>
+        <label><input type="radio" name="q33" value="2"> dévoilé</label>
+        <label><input type="radio" name="q33" value="3"> dérivé</label>
+        <label><input type="radio" name="q33" value="4"> démodé</label>
+      </div>
+
+      <div class="task">
+        <b>34.</b>
+        <label><input type="radio" name="q34" value="1"> découvrent</label>
+        <label><input type="radio" name="q34" value="2"> désignent</label>
+        <label><input type="radio" name="q34" value="3"> demeurent</label>
+        <label><input type="radio" name="q34" value="4"> deviennent</label>
+      </div>
+
+      <div class="task">
+        <b>35.</b>
+        <label><input type="radio" name="q35" value="1"> détaillent</label>
+        <label><input type="radio" name="q35" value="2"> désolent</label>
+        <label><input type="radio" name="q35" value="3"> décollent</label>
+        <label><input type="radio" name="q35" value="4"> défilent</label>
+      </div>
+
+      <div class="task">
+        <b>36.</b>
+        <label><input type="radio" name="q36" value="1"> recherchée</label>
+        <label><input type="radio" name="q36" value="2"> déclenchée</label>
+        <label><input type="radio" name="q36" value="3"> empêchée</label>
+        <label><input type="radio" name="q36" value="4"> arrachée</label>
+      </div>
+
+    </div>
+
+    <button class="check-btn" onclick="checkTask3036()">Проверить</button>
+    <p id="result3036"></p>
+
+  </div>
+
+</section>
+
+<script src="script.js"></script>
