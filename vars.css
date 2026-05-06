@@ -167,12 +167,10 @@ body.page {
   font-weight: bold;
 }
 
-/* Центр заголовка */
 .center {
   text-align: center;
 }
 
-/* Блок задания */
 .exam-header {
   display: flex;
   align-items: center;
@@ -181,7 +179,6 @@ body.page {
   margin-bottom: 20px;
 }
 
-/* Квадратик "Задание 10" */
 .exam-task-number {
   border: 2px solid #444;
   padding: 6px 12px;
@@ -232,7 +229,6 @@ body.page {
   text-align: center;
 }
 
-/* варианты */
 .variants {
   margin-top: 20px;
   background: white;
@@ -240,7 +236,6 @@ body.page {
   border: 1px solid black;
 }
 
-/* таблица */
 .answer-table {
   margin-top: 20px;
   display: flex;
@@ -265,7 +260,6 @@ body.page {
   text-align: center;
 }
 
-/* проверка */
 .correct {
   background: #c8f7c5;
 }
