@@ -31,14 +31,12 @@
       Выбери вариант и решай прямо на сайте.
     </p>
 
-    <!-- КНОПКИ -->
     <div class="pdf-controls">
       <button onclick="loadPDF('data/var1.pdf')">Вариант 1</button>
       <button onclick="loadPDF('pdf/variant2.pdf')">Вариант 2</button>
       <button onclick="loadPDF('pdf/variant3.pdf')">Вариант 3</button>
     </div>
 
-    <!-- ПРОСМОТР -->
     <div class="pdf-viewer">
       <iframe id="pdf-frame" src="data/var1.pdf"></iframe>
     </div>
@@ -47,7 +45,6 @@
 
 </section>
 
-<!-- JS (вставь перед </body>) -->
 <script>
   function loadPDF(file) {
     document.getElementById("pdf-frame").src = file;
