@@ -477,45 +477,6 @@ footer
     text-align: center;
 }
 
-/* .section--verbs {
-  background: #fff3f9;
-}
-
-.verbs-table-wrapper {
-  overflow-x: auto;
-  margin-top: 20px;
-}
-
-.verb-table {
-  width: 100%;
-  border-collapse: collapse;
-  font-size: 15px;
-  background: rgba(255, 255, 255, 0.7);
-  border-radius: 16px;
-  overflow: hidden;
-}
-
-.verb-table th,
-.verb-table td {
-  padding: 12px;
-  text-align: center;
-  border: 1px solid rgba(223, 158, 196, 0.4);
-}
-
-.verb-table th {
-  background: rgba(232, 106, 167, 0.25);
-  color: #8d2a59;
-}
-
-.verb-table tr:hover {
-  background: rgba(240, 170, 210, 0.2);
-}
-
-.verb-table td:first-child {
-  font-weight: 700;
-  color: #c7377e;
-} */
-
 .section--verbs {
   background: #fff3f9;
   height: 70vh;
@@ -535,7 +496,6 @@ footer
   overflow: hidden;
 }
 
-/* Ячейки */
 .verb-table th,
 .verb-table td {
   padding: 12px;
@@ -543,25 +503,21 @@ footer
   border: 1px solid rgba(223, 158, 196, 0.4);
 }
 
-/* Заголовки */
 .verb-table th {
   background: rgba(232, 106, 167, 0.25);
   color: #8d2a59;
   font-weight: 700;
 }
 
-/* Первая колонка (глаголы) */
 .verb-table td:first-child {
   font-weight: 700;
   color: #c7377e;
 }
 
-/* Hover */
 .verb-table tr:hover {
   background: rgba(240, 170, 210, 0.2);
 }
 
-/* Разделение групп */
 .verb-table tr:nth-child(2) th {
   background: rgba(232, 106, 167, 0.18);
 }
@@ -572,7 +528,6 @@ footer
   height: 50vh;
 }
 
-/* Сетка */
 .vocab-grid {
   margin-top: 25px;
   display: grid;
@@ -580,7 +535,6 @@ footer
   gap: 16px;
 }
 
-/* Карточка */
 .flip-card {
   perspective: 1000px;
 }
@@ -597,7 +551,6 @@ footer
   transform: rotateY(180deg);
 }
 
-/* Стороны */
 .flip-card__front,
 .flip-card__back {
   position: absolute;
@@ -612,13 +565,11 @@ footer
   border: 1px solid rgba(223, 158, 196, 0.4);
 }
 
-/* Перед */
 .flip-card__front {
   background: rgba(255, 255, 255, 0.7);
   color: #c7377e;
 }
 
-/* Зад */
 .flip-card__back {
   background: rgba(232, 106, 167, 0.25);
   color: #5a3446;
